@@ -63,7 +63,7 @@ public class Test {
         // ---------------------------------------------------------------------------------
         
         Name name3 = new Name("Josiah", "Senior");
-        Date birthDate3 = BirthDate.readDate("1997-08-03");
+        Date birthDate3 = BirthDate.readDate("1996-09-05");
         Student newStudent3 = new Undergrad(name3, birthDate3);
         
         tools.registerStudent(newStudent3);         // Comment out to check registration status for unassigned smart card
@@ -140,7 +140,7 @@ public class Test {
         
         // ---------------------------------------------------------------------------------
         
-        Name name5 = new Name("Elizabeth", "Martens");
+        Name name5 = new Name("Lizz", "Martins");
         Date birthDate5 = BirthDate.readDate("1996-12-12");
         Student newStudent5 = new PostgradResearch(name5, birthDate5);
         
